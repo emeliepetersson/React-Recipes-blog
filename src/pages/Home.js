@@ -21,7 +21,7 @@ const Home = () => {
   if (!posts) {
     return (
       <div>
-        <h1>Bakblogg</h1>
+        <h1>Recept</h1>
         <p>Loading...</p>
       </div>
     );
@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Bakblogg</h1>
+      <h1>Recept</h1>
       <Row>
         {posts &&
           posts.map((post, i) => {

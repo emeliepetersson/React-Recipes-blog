@@ -1,5 +1,4 @@
 const contentful = require("contentful");
-require("dotenv").config();
 
 const spaceKey = process.env.REACT_APP_CONTENTFUL_SPACE;
 const accessTokenKey = process.env.REACT_APP_CONTENTFUL_ACCESSTOKEN;

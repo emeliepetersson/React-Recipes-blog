@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const NavStyled = styled.nav`
   width: 100%;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   background-color: white;
   padding: 10px 0;
 

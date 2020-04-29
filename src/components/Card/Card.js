@@ -4,11 +4,11 @@ import styled from "styled-components";
 import Button from "../Button/Button";
 
 const CardStyled = styled.a`
-  width: 360px;
-  height: 450px;
+  width: 100%;
+  height: 500px;
   background-color: white;
   color: black;
-  margin: 40px 10px;
+  margin: 40px 0;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,7 @@ const CardStyled = styled.a`
 
   img {
     width: 100%;
-    height: 200px;
-    min-height: 200px;
+    height: 250px;
     display: block;
     object-fit: cover;
     border-radius: 4px;

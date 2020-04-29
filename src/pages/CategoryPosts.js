@@ -6,18 +6,19 @@ import Card from "../components/Card/Card";
 import Nav from "../components/Nav/Nav";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
-const Home = () => {
+const Home = (props) => {
   const [posts, setPosts] = React.useState(null);
 
   React.useEffect(() => {
     client
       .getEntries({
         content_type: "post",
+        "fields.category": props.slug,
       })
       .then((entries) => {
         setPosts(entries.items);
       });
-  });
+  }, [props.slug]);
 
   if (!posts) {
     return (
@@ -38,7 +39,7 @@ const Home = () => {
             return (
               <Col key={i} size={30}>
                 <Card
-                  link={`posts/${post.fields.slug}`}
+                  link={`/posts/${post.fields.slug}`}
                   title={post.fields.title}
                   image={post.fields.image.fields.file.url}
                   alt="post image"

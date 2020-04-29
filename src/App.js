@@ -5,6 +5,7 @@ import './App.css';
 // Page components
 import Home from "./pages/Home";
 import SinglePost from "./pages/SinglePost";
+import CategoryPost from "./pages/CategoryPosts"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Router>
       <Home path="/"/>
       <SinglePost path="posts/:slug" />
+      <CategoryPost path="category/:slug" />
       </Router>
     </div>
   );

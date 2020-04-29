@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Col = styled.div`
   width: ${(props) => props.size}%;
-  min-width: 400px;
+  min-width: 360px;
   display: flex;
   justify-content: center;
 `;

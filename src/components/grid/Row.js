@@ -5,11 +5,15 @@ const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-around;
+  justify-content: ${(props) => props.align};
 `;
 
 Row.propTypes = {
   children: PropTypes.any,
+};
+
+Row.defaultProps = {
+  align: "space-around",
 };
 
 export default Row;

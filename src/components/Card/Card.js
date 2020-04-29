@@ -8,7 +8,7 @@ const CardStyled = styled.a`
   height: 500px;
   background-color: white;
   color: black;
-  margin: 40px 0;
+  margin: 50px 0 0;
   border-radius: 4px;
   display: flex;
   flex-direction: column;

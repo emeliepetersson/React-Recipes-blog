@@ -41,7 +41,7 @@ const Home = (props) => {
                 <Card
                   link={`/posts/${post.fields.slug}`}
                   title={post.fields.title}
-                  image={post.fields.image.fields.file.url}
+                  image={`${post.fields.image.fields.file.url}?w=700&h=700`}
                   alt="post image"
                   excerpt={documentToReactComponents(post.fields.excerpt)}
                 />

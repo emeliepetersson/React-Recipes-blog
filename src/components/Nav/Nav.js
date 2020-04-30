@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import styled from "styled-components";
 
 const NavStyled = styled.nav`
@@ -16,7 +17,7 @@ const NavStyled = styled.nav`
     color: black;
 
     &:hover {
-      border-bottom: 1px solid grey;
+      font-size: 17px;
     }
   }
 `;
@@ -24,9 +25,9 @@ const NavStyled = styled.nav`
 const Nav = () => {
   return (
     <NavStyled>
-      <a href="/">Hem</a>
-      <a href="/category/Drinks">Drinkar</a>
-      <a href="/category/Sweets">Bakverk</a>
+      <Link to="/">Hem</Link>
+      <Link to="/category/Drinks">Drinkar</Link>
+      <Link to="/category/Sweets">Bakverk</Link>
     </NavStyled>
   );
 };

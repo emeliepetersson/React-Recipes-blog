@@ -36,7 +36,7 @@ const SinglePostStyled = styled.div`
 
     .image-wrapper {
       width: 50%;
-      height: 600px;
+      max-height: 800px;
       overflow: hidden;
       margin: 50px 0 20px;
 

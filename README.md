@@ -1,7 +1,7 @@
 <img src="https://media.giphy.com/media/JKSaYOkCHcblK/giphy.gif" width="100%">
 
 # Recipes blog
-Store all your favorite recipes in on place with this React app. The content is uploaded via <a href="https://www.contentful.com/">Contentful (Headless CMS)</a> and displayed on the website.
+Store all your favorite recipes in one place with this React app. The content is uploaded via <a href="https://www.contentful.com/">Contentful (Headless CMS)</a> and displayed on the website.
 
 https://recipes-blog.netlify.app/
 

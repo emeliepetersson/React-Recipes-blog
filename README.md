@@ -8,7 +8,7 @@ https://recipes-blog.netlify.app/
 ## Installation instructions
 1. Clone down the project to you computer:
 ```
-$ git clone https://github.com/emeliepetersson/React-app
+$ git clone https://github.com/emeliepetersson/React-Recipes-blog
 ```
 
 2. In the project directory, you can run:
@@ -19,4 +19,4 @@ This runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
 ## License
-See [The MIT License](https://github.com/emeliepetersson/React-app/blob/master/LICENSE).
+See [The MIT License](https://github.com/emeliepetersson/React-Recipes-blog/blob/master/LICENSE).

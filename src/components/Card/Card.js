@@ -24,21 +24,17 @@ const CardStyled = styled.a`
     border-radius: 4px;
   }
 
-  .text-content {
+  .content {
     text-align: left;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100%;
     position: relative;
 
     h3 {
       margin: 0;
-    }
-
-    button {
-      position: absolute;
-      bottom: 20px;
     }
   }
 `;
@@ -47,10 +43,12 @@ const Card = (props) => {
   return (
     <CardStyled href={props.link} {...props}>
       <img src={props.image} alt={props.alt} />
-      <div className="text-content">
-        <h3>{props.title}</h3>
+      <div className="content">
+        <div>
+          <h3>{props.title}</h3>
+          {props.excerpt}
+        </div>
         <Button children="läs mer" />
-        {props.excerpt}
       </div>
     </CardStyled>
   );

@@ -48,7 +48,7 @@ const Card = (props) => {
           <h3>{props.title}</h3>
           {props.excerpt}
         </div>
-        <Button children="läs mer" />
+        <Button>Läs mer</Button>
       </div>
     </CardStyled>
   );
